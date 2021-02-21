@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+html, body {
+    max-width: 100%;
+	overflow-x: hidden;
+	font-family: "Press Start 2P", monospace;
+}
+.hidden {
+	display: none;
+}
+.page {
+	padding: 60px 0 120px;
+}
+.border-dashed {
+	border-style: dashed;
+	border-width: 4px;
+	border-color: black;
+}
+.typing-effect {
+	overflow: hidden;
+	border-right: .15em solid orange;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .15em;
+	animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+}
+
+@keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange; }
+}
+
+.body-fade {
+	animation: fadeInText ease 7s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInText {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.privacy-alert {
+	background-color: black;
+	color: white;
+	border: 5px groove blue;
+}
+
+.jumbo-blk {
+	background-color: black;
+	color: lime;
+	border: 5px dashed lime;
+}
+
+@media only screen and (max-width: 768px) {
+	h3 {
+		font-size: 1.25px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	h3 {
+		font-size: 0.87px;
+	}
+}
