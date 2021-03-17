@@ -1,1 +1,9 @@
-{"/_app":"static/dhFnLmmjg52gawVzYx5T8/pages/_app.js","/_document":"static/dhFnLmmjg52gawVzYx5T8/pages/_document.js","/_error":"static/dhFnLmmjg52gawVzYx5T8/pages/_error.js","/about":"static/dhFnLmmjg52gawVzYx5T8/pages/about.js","/contact":"static/dhFnLmmjg52gawVzYx5T8/pages/contact.js","/index":"static/dhFnLmmjg52gawVzYx5T8/pages/index.js","/privacy-policy":"static/dhFnLmmjg52gawVzYx5T8/pages/privacy-policy.js","/":"static/dhFnLmmjg52gawVzYx5T8/pages/index.js"}
+{
+  "/_app": "pages/_app.js",
+  "/about": "pages/about.js",
+  "/contact": "pages/contact.js",
+  "/": "pages/index.js",
+  "/privacy-policy": "pages/privacy-policy.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
+}

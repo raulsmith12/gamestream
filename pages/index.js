@@ -14,8 +14,8 @@ const Home = props => (
 	    <Container>
             <Row>
                 <Col className="border-dashed px-3 py-2">
-                    <h3 className="typing-effect text-center">It Was a Dark Time...</h3>
-                    <p className="body-fade">The Empire had taken over the galaxy. Darth Vader was slaying would-be fools. The Demigorgon had captured Eleven and her crew. The only hope left was a soulless ginger-bearded dragon named Owl.<br /><br />
+                    <h3 className="text-center">It Was a Dark Time...</h3>
+                    <p className="body-fade">The Empire had taken over the galaxy. Darth Vader was slaying would-be fools. McFly had trapped himself in medival times with the DeLorean. The only hope left was a soulless ginger-bearded dragon named Owl.<br /><br />
                     Welcome to GAMEstream, the website home of the fastest-rising YouTube and Twitch channel around! Come watch as Owl, a gamer/ father/ computer nerd/ 80s movie geek, tackles all kinds of games, from shooters to platformers, retro to modern, and all in between.</p>
                 </Col>
             </Row>
